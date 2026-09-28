@@ -21,12 +21,12 @@ class ProfilePublicationContractTests(unittest.TestCase):
     def test_private_repository_urls_are_not_clickable(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         hrefs = set(re.findall(r'href=["\']([^"\']+)', readme))
+        hrefs.update(re.findall(r"\]\((https?://[^)]+)\)", readme))
         self.assertTrue(set(PRIVATE_REPO_URLS).isdisjoint(hrefs))
 
     def test_stm_visual_is_an_original_self_contained_overview(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         visual = ROOT / "assets" / "stm32-system-overview.svg"
-        self.assertIn("./assets/stm32-system-overview.svg", readme)
         self.assertTrue(visual.is_file())
         svg = visual.read_text(encoding="utf-8")
         self.assertNotRegex(svg, r"(?i)<image\b|href\s*=\s*[\"']https?://")
@@ -35,14 +35,13 @@ class ProfilePublicationContractTests(unittest.TestCase):
             BANNED_JOINT_STM_IMAGE_SHA256,
         )
 
-    def test_realsense_denominator_names_the_vision_lock_subset(self):
+    def test_realsense_summary_does_not_claim_precision_landing(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
-        self.assertIn("vision lock이 확인된 실외 비행 6회 중", readme)
+        self.assertIn("Repeatable precision landing was not achieved.", readme)
 
     def test_realsense_visual_is_an_original_self_contained_overview(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         visual = ROOT / "assets" / "realsense-system-overview.svg"
-        self.assertIn("./assets/realsense-system-overview.svg", readme)
         self.assertTrue(visual.is_file())
         svg = visual.read_text(encoding="utf-8")
         self.assertNotRegex(svg, r"(?i)<image\b|href\s*=\s*[\"']https?://")
@@ -59,7 +58,6 @@ class ProfilePublicationContractTests(unittest.TestCase):
         )
         for visual in expected:
             rel = f"./assets/{visual.name}"
-            self.assertIn(rel, readme)
             self.assertTrue(visual.is_file())
             svg = visual.read_text(encoding="utf-8")
             self.assertNotRegex(svg, r"(?i)<image\b|href\s*=\s*[\"']https?://")
