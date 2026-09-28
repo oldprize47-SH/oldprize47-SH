@@ -10,14 +10,14 @@ I studied electronic control engineering and computer science. I am interested i
 
 [STM32 embedded controller](https://github.com/oldprize47-SH/stm32-embedded-controller) contains individual peripheral exercises and team projects for an RC car and an automatic recycling system. The work covers C, timers, PWM, sensor inputs and serial communication. A [team demonstration](https://www.youtube.com/watch?v=dkphMHEKzxE) shows the recycling prototype.
 
-[Motor system identification](https://github.com/oldprize47-SH/motor-system-identification) describes a two-person control project. I worked on sinusoidal motor experiments, response analysis and model-based controller study using MATLAB/Simulink. The repository includes a plot of recorded input and response and explains the replay results.
+[Motor system identification](https://github.com/oldprize47-SH/motor-system-identification) describes a two-person control project. I worked on sinusoidal motor experiments, response analysis and model-based controller study using MATLAB/Simulink. The repository includes the MATLAB/Simulink analysis, recorded data and a script to reproduce the response plot.
 
 [Gaze Tracking Mouse](https://github.com/oldprize47-SH/gaze-mouse-course-project) is a project I built with Sunwoo Kim. It uses a webcam and a learned gaze model to move the pointer, with calibration and blink-based interaction. The README links to the team demo and describes the limits of the original evaluation.
 
 ## Other coursework
 
-- [Algorithm analysis](https://github.com/oldprize47-SH/algorithm-analysis): four C++ programs and regression tests for selected boundary cases.
-- [Operating systems](https://github.com/oldprize47-SH/operating-systems-labs): process, pipe and reader/writer exercises in C.
+- [Algorithm analysis](https://github.com/oldprize47-SH/algorithm-analysis): five C++ coursework programs and regression tests for selected boundary cases.
+- [Operating systems](https://github.com/oldprize47-SH/operating-systems-labs): process, pipe, reader/writer and threaded file-search exercises in C.
 - [Image processing](https://github.com/oldprize47-SH/image-processing-labs): OpenCV coursework, including lane-detection output.
 - [Introduction to AI](https://github.com/oldprize47-SH/ai-coursework): weekly notebooks and saved outputs.
 - [Product-review web app](https://github.com/oldprize47-SH/ceneo-review-webapp) and [analysis notebooks](https://github.com/oldprize47-SH/ceneo-review-analysis): Flask and Python coursework.
