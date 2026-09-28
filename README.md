@@ -4,6 +4,8 @@ I studied electronic control engineering and computer science. I am interested i
 
 [한국어 소개](README.ko.md)
 
+If you are visiting for the first time, start with the RealSense vision, STM32 controller and motor-identification projects below. Each README explains the problem, my part in the work, how the implementation fits together and what was actually tested. The coursework section contains smaller examples of C/C++, Python and web development.
+
 ## Projects
 
 [RealSense drone vision](https://github.com/oldprize47-SH/realsense-drone-vision) was my camera and vision contribution to a team drone project. I worked on image collection and labelling, lightweight detection models, embedded inference, tracking and target information for the flight controller. The [team archive](https://github.com/oldprize47-SH/Autonomous_Drone_Development) includes the aircraft, flight demonstration and reports. Repeatable precision landing was not achieved.
