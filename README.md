@@ -7,7 +7,7 @@
 
 전자제어공학과 컴퓨터공학을 공부했습니다. 임베디드 소프트웨어, 제어, 로보틱스 분야의 인턴·신입 직무를 준비하고 있습니다.
 
-처음 방문하셨다면 자율비행 드론, 임베디드 제어, 모터 시스템 식별 프로젝트부터 보시면 됩니다. 각 README에는 프로젝트 목표와 구성, 팀원별 작업, 실행 방법, 확인한 결과와 한계를 정리했습니다. 같은 과목에서 진행한 구성요소는 하나의 대표 프로젝트로 묶었습니다.
+처음 방문하셨다면 자율비행 드론, 임베디드 제어, 모터 시스템 식별 프로젝트부터 살펴보시면 좋겠습니다. 각 README는 무엇을 만들려고 했는지부터 시작해, 시스템 구성과 팀원별 작업, 실행 방법을 차근차근 설명합니다. 결과를 살펴보실 때 참고하실 수 있도록 실제로 확인한 범위와 남은 과제도 함께 적었습니다. 같은 과목에서 진행한 구성요소는 한곳에서 읽으실 수 있도록 하나의 대표 프로젝트로 묶었습니다.
 
 ### 주요 프로젝트
 
@@ -26,7 +26,7 @@
 - [상품 리뷰 웹 애플리케이션](https://github.com/oldprize47-SH/ceneo-review-webapp)과 [데이터 분석](https://github.com/oldprize47-SH/ceneo-review-analysis): Flask 웹 화면과 Python 분석 노트북.
 - [축구 라인업 웹사이트](https://github.com/oldprize47-SH/football-lineup-web): HTML 페이지와 이미지 연결을 연습한 초기 웹 프로젝트.
 
-이전 저장소 이력에는 `oldprize47` 또는 `sangheon47` 계정이 사용됐습니다. 이 계정은 포트폴리오 열람을 위해 프로젝트를 모은 곳입니다. 팀 기여와 수업 제공 자료의 출처는 각 저장소에 구분했으며, 일부 구현과 실험에는 AI 코딩 도구를 활용했습니다.
+이전 저장소 이력에는 `oldprize47` 또는 `sangheon47` 계정이 사용됐습니다. 이곳에서 각 프로젝트의 과정과 결과를 편하게 살펴보실 수 있도록 정리하고 있습니다. 팀 기여와 수업 제공 자료의 출처는 각 저장소에 구분했으며, 일부 구현과 실험에는 AI 코딩 도구를 활용했습니다.
 
 ---
 
@@ -37,7 +37,7 @@
 
 I studied electronic control engineering and computer science. I am interested in embedded software, control and robotics, and am looking for internship and graduate engineering roles.
 
-If you are visiting for the first time, start with the autonomous drone, embedded control and motor-identification projects. Each README explains the goal, system configuration, team responsibilities, how to run the work, and its results and limits. Components from the same course project are grouped under one main project.
+If this is your first visit, the autonomous drone, embedded control and motor-identification projects are a useful place to begin. Each README walks through the project goal, how the system fits together, the team’s work and how to try the code. I have also included what we were able to verify and what remains to be explored, so the results have a clear context. Components from the same course project are grouped together to make the work easier to follow.
 
 ### Selected projects
 
@@ -56,4 +56,4 @@ If you are visiting for the first time, start with the autonomous drone, embedde
 - [Product Review Web App](https://github.com/oldprize47-SH/ceneo-review-webapp) and [Product Review Analysis](https://github.com/oldprize47-SH/ceneo-review-analysis): Flask and Python coursework.
 - [Football Lineup Website](https://github.com/oldprize47-SH/football-lineup-web): an early HTML project connecting pages and images.
 
-Earlier repository history uses `oldprize47` or `sangheon47`. This account brings the projects together for portfolio review. Team contributions and course material are identified in each repository. AI coding tools supported parts of my implementation and experiments.
+Earlier repository history uses `oldprize47` or `sangheon47`. I have brought these projects together here to make their development and results easier to explore. Team contributions and course material are identified in each repository. AI coding tools supported parts of my implementation and experiments.
